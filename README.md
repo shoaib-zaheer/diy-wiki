@@ -102,7 +102,7 @@ __Building the Frontend__
 
 What you need to do to complete this assignment is write the 5 routes described in the `./wiki-server/server.js' file.  You'll know your work is finished when you can use every button, link, and page in your frontend!
 
-We recommend always keeping the live demo open as you develop to be sure you keep the final product in mind.  You can find the link in a pinned message on your class' Slack channel.
+We recommend always keeping the live demo running in a separate tab as you develop to be sure you keep the final product in mind.  You can find the link in a pinned message on your class' Slack channel.
 
 ### Get an Existing Page
 
