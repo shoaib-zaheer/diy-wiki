@@ -70,10 +70,9 @@ You coaches will share a link to a live, working version of this wiki so you can
 
 Before you can get started writing your routes you'll want to make sure all dependencies are installed, and to make sure the frontend and backends are operational.
 
-Step 0 is to clone this repo.  Then you can move on to ...
+Step 0 is to fork and clone this repo, this repo is the starter code.  Then you can move on to ...
 
 ### Running the API
-
 
 __Installing Dependencies__
 1. `npm install`
@@ -89,14 +88,10 @@ __Running the API__
 The frontend works, you don't need to change any code there.  All you need to do is run it! (and study the code a bit if you're feeling ambitious :)
 
 __Installing Dependencies__
-1. `npm install`
+1. `npm install` or `yarn install`
 
-__Running the Frontend__
-1. `npm run start`
-1. It will automatically open a new tab in your browser
-1. Explore the wiki API from the frontend app!
-
-
+__Building the Frontend__
+1. `npm run build` or `yarn build`
 
 
 [TOP](#do-it-yourself-wiki)
@@ -107,7 +102,7 @@ __Running the Frontend__
 
 What you need to do to complete this assignment is write the 5 routes described in the `./wiki-server/server.js' file.  You'll know your work is finished when you can use every button, link, and page in your frontend!
 
-We recommend always keeping the live demo open as you develop to be sure you keep the final product in mind.  You can find the link in a pinned message on your class' Slack channel.
+We recommend always keeping the live demo running in a separate tab as you develop to be sure you keep the final product in mind.  You can find the link in a pinned message on your class' Slack channel.
 
 ### Get an Existing Page
 
@@ -165,7 +160,6 @@ Calling this route will return a response with a property called `tag` which ind
 ---
 
 ## Helpful Links
-
 
 
 __Debugging JS Servers In VSC__
